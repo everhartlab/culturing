@@ -7,6 +7,8 @@
     urlcolor=blue % color of external links
 }
 
+\usepackage{lineno}
+
 \title{Culturing notes from meeting with Paul 3-27-2014}
 \author{Sydney E. Everhart \& Brian J. Knaus}
 
@@ -21,6 +23,8 @@
 %\listoffigures
 
 \newpage
+
+\linenumbers
 
 \section{Background}
 These are the protocols that we learned from Paul Reeser.
