@@ -1,0 +1,124 @@
+% Culturing notes from meeting with Paul 3-27-2014
+
+\documentclass{article}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % false: boxed links; true: colored links
+    urlcolor=blue % color of external links
+}
+
+\title{Culturing notes from meeting with Paul 3-27-2014}
+\author{Sydney E. Everhart \& Brian J. Knaus}
+
+%%%%% Begin document
+\begin{document}
+
+
+\maketitle
+\tableofcontents
+
+\listoftables
+%\listoffigures
+
+\newpage
+
+\section{Background}
+These are the protocols that we learned from Paul Reeser.
+
+\section{Media}
+Paul's preference is to use cornmeal agar (CMA) for all species of \emph{Phytophthora}. Over the years, however, he's found that commerical forumulations of CMA (both Difco and BBL) produce media that is both variable in content and often has negative affects on growth.  They now make their own CMA using cornmeal from the Co-Op (Tables \ref{tab:ext} and \ref{tab:cma}).  As a part of Paul's protocol he has included using a refractometer to standardize specific gravity of the extract.  It was in this process that Paul found cornmeal purchased from places other than the Co-Op (e.g., Winco), yielded lower solid content (chunkies).  
+
+Table \ref{tab:ext} presents a recipe for conmeal extract.
+
+Table \ref{tab:cma} presents a recipe for CMA.
+
+\begin{table}[h]
+\centering
+\caption{recipe for cornmeal extract$^{1}$}
+\begin{tabular}{ll}
+\hline
+ ?g & Cornmeal \\
+ ??? mL & water \\
+ \hline
+\end{tabular}
+\label{tab:ext}
+\\
+$^{1}$Sydney does not understand what a caption is.
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{recipe for CMA$^{2}$}
+\begin{tabular}{ll}
+\hline
+?mL & cormeal extract\\
+?g & agar\\
+?mL & water\\
+??min & sterilization \\
+\hline
+\end{tabular}
+\label{tab:cma}
+\\
+$^{1}$Brian does not understand what a title is.
+\end{table}
+
+
+\subsection{Condensation Management}
+
+Paul indicated that condensation within Petri plates is a very important step in maintaining \emph{Phytophthora} cultures and should be prevented for a few reasons.  Condensation can be conducive to contamination and makes it difficult to identifiy bacterial contamination. There are several tips that Paul gave us to minimize condensation:
+
+\begin{enumerate}
+  \item Wait until the media has cooled sufficiently before pouring into Petri plates
+  \item Stack plates high in the hood to minimize condensation 
+  \item Store plates at room temperature in crisper boxes to fully eliminate condensation
+  \item Store plates in plastic Petri sleeves at room temperature (never store in refrigerator)
+  \item If there's any remaining condensation in sleeve or on plates, allow them to dry in the hood before plating
+  \item Petri plates should not be used until they are at least one week old and old media is not a concern (up to a year old can still be used, even with antibiotics amended as long as they are kept in the dark)
+\end{enumerate}
+
+The benefit of preventing condensation within Petri plates is that it allows parafilming of all plates, which is required in the Hansen lab for all Petri plates.  Parafilming helps slow the spread of contaminants that may arise and also helps minimize dehydration of the Petri plates.
+
+
+\section{Cleaning Cultures}
+Cleaning cultures is a step that Paul performs for all new isolates sent to him and for any new isolates that are from fresh material.  Cleaning cultures is the following steps, which can be done outside the hood unless noted otherwise:
+
+\begin{enumerate}
+  \item Transfer isolate to dilute CARP (cornmeal, ampicillin, rifampicin and pimaricin)
+  \item Visual inspection of original plug using a dissecting microscope to see if there is any sign of bacteria or other fungal contaminant
+  \item Hyphal tiping, performed using a dissecting microscope and needle
+  \item Transfer to new CARP plate
+  \item After growth, perform Visual inspection for contaminants using a dissecting microscope and if any are found, return to step 3
+  \item If culture found to be clean, plate on CMA in hood
+\end{enumerate}
+
+Performing hyphal tipping and inspecting for any signs of contamination was a step that Paul felt was very important for generating clean cultures.  His reasoning was that when grown on antibiotic and fungicide amended media, the \emph{Phytophthora} should be able to grow more rapidly than a contaminant.  So taking this tissue from the extreme edge of the growing hypha should ensure a transfer of pure culture.  Similarly, Paul noted that if a culture was indeed contaminated that most likely places to see signs of contamination is at the site of the original transfer.  If a bacterial contamination is suspected and you want to determine if the substance is indeed bacterial, Paul suggests streaking a sample of the material onto nutrient agar.
+
+Note that Botran may be used as a non-carcenogenic substitute fungicide for PCNB in PARP.
+
+\section{Short-term Storage}
+
+Short term storage of cultures involves the regular transfer of cultures to condensation-free CMA media on a semi-weekly basis.  Cultures from the previous week can be harvested by excising a portion of the colony near the growing edge of the colony.  This agar plug, containing both mycelia and media can then be transferred to a new plate containing fresh media.  Sterile technique should be practiced during this process.
+
+\section{Long-term Storage}
+
+Long term storage is accomplished in duplicate, but non-identical, vials.  One vial contains deionized water, the second contains 2-3 `chips' of hemp seed (can be purchased at the Co-op).  These vials need to be autoclaved for around 90 minutes prior to use.  Paul uses a special vial which has an indicator in it to ensure that sufficient heat is achieved during sterilization.  Also, the hemp seed containing vials should be used within the first three months.  If not used before three months they appear to develop something which is detrimental to growth.  Three to four agar plugs containing mycelium can be placed in the water containing vial.  One agar plug can be stored in the hemp seed containing vial.  These vials can be stored at room temperature, in the dark.  Cultures can be stored like this idealy for about 2-3 years, but may remain viable for up to 15 years.
+
+Ken Johnson uses a similar strategy for \emph{P. infestans}, but instead of using hemp seed he uses a few rye seeds.
+% 
+% 
+% <<import, eval=TRUE>>=
+% date()
+% @
+% 
+% \section{Session information}
+% 
+% This analysis was performed in %\cite{R}.
+% 
+% <<sess, eval=TRUE>>=
+% sessionInfo()
+% @
+
+%\bibliographystyle{plain}
+%\bibliography{ec50.bib}
+
+\end{document}
